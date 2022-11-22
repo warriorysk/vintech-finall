@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap');
+body{
+    margin:auto;
+}
+.products{
+    height:1500px;
+    width:100%;
+}
+.none:hover{
+    color:black;
+}
+.products-heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 21, 21);
+    font-family: 'Roboto Slab', serif;
+    margin-top: 45px;
+    border-bottom: 4px solid rgb(232, 204, 48);    
+}
+.ctr{
+    border-bottom: 4px solid rgb(232, 204, 48);
+}
+@media screen and (max-width:500px) {
+    .products{
+        height:3000px;
+    }
+}

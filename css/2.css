@@ -1,0 +1,67 @@
+body{
+    margin:auto;
+}
+
+.contact-box{
+    height:550px;
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cb-box-1{
+    height:550px;
+    width:49%;
+    display:inline-block;
+    margin-left:10px;
+    background-color:#313a44;
+}
+.getintouch{
+    color:white;
+    font-family:'Bebas Neue', cursive;
+    font-size:40px;
+    margin-left:13%;
+    position: absolute;
+    margin-top:20px;
+}
+.getintouch-mater{
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.gthead{
+    color:white;
+    margin-left:40px;
+    margin-top:100px;
+}
+.gttext{
+    color:white;
+    margin-left: 40px;
+}
+.cb-box-2 {
+    height: 550px;
+    width: 49%;
+    background-color:#e3e3e3;
+    display: inline-block;
+    margin-left: 10px;
+    padding:40px;
+    position:absolute;
+}
+@media screen and (max-width:500px) {
+    .cb-box-1{
+        width:95%;
+    }
+    .cb-box-2{
+        width:95%;
+        position:relative;
+    }
+    .map{
+        width:400px;
+        height:400px;
+    }
+    .contact-box{
+        height:1150px;
+    }
+}
